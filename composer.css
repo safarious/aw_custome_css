@@ -1,0 +1,310 @@
+/**
+Informations-Header nach Landing
+**/
+
+@media (max-width: 480px){
+.text-lading-product{
+    font-size: 22px;
+    line-height: 32px;
+    word-wrap: normal;
+    }
+
+.buy{
+    width: 100%;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+}
+
+@media (max-width: 768px){
+    .buy{
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+.buy{
+    margin-top: 100px;
+    padding-right: 100px;
+}
+
+
+.text-landing-product{
+    font-size: 28px;
+    word-wrap: normal;
+    text-align: justify;
+}
+
+b,strong {
+    font-weight: 700;
+}
+
+.price {
+    font-size: 48px;
+}
+
+.currency {
+    font-size: 24px;
+}
+
+/**
+Instafeed
+**/
+.unero-product-instagram > h2 {
+    font-size: 32px !important;
+}
+
+.instafeed {
+    width: 100%;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+@media (max-width: 768px){
+    .instafeed {
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+}
+
+/**
+Side-Menu Mobile & Hover-Effekte
+**/
+.primary-mobile-nav ul.menu li > a {
+    color: #333 !important;
+}
+
+.primary-mobile-nav ul.menu li > a:hover {
+    color: #5CC0E1 !important;
+}
+
+.site-footer .menu li a:hover {
+    color: #5CC0E1 !important;
+}
+
+.site-footer .socials a:hover {
+    color: #5CC0E1 !important;
+}
+
+
+/**
+Button-Landing
+**/
+
+.product-button{
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.vc_btn3-container .vc_btn3.vc_btn3-size-lg {
+    padding: 5px 50px !important;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+
+/**
+Show-Off
+**/
+@media (max-width: 768px){
+.showoff li img {
+    width: 100px !important;
+}
+}
+
+.showoff li img {
+    width: 150px;
+    opacity: .6;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: all .3s ease-in-out;
+}
+
+.showoff li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 20px;
+}
+
+.showoff {
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+    padding-bottom: 80px;
+    padding-left: 30px;
+}
+
+.showoff h3 {
+    margin: 0 0 20px;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.showoff ul {
+    margin: 0;
+    padding: 0;
+}
+
+.showoff li img:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    opacity: 1;
+}
+
+
+/**
+Skillbar
+**/
+@media (max-width: 768px){
+.block.pinkbox .content .logo {
+    float: center !important;
+    margin: 0 auto !important;
+    width: 100% !important;
+    padding-right: 0 !important;
+}
+
+.block.pinkbox .content .logo img {
+    max-width: 250px !important;
+    width: 100% !important;
+}
+
+.block.pinkbox .content .logo p {
+    float: center !important;
+    width: 100% !important;
+    padding-top: 0 !important;
+}
+
+.block.pinkbox .content .showoff {
+    width: 100% !important;
+    padding-top: 0 !important;
+    padding-left: 0 !important;
+}
+}
+
+@media (max-width: 480px){
+.block.pinkbox .content .logo {
+    padding-top: 0 !important;
+    padding-right: 0 !important;
+}
+
+.block.pinkbox .content .showoff {
+    width: 100% !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-top: 0 !important;
+}
+}
+
+.block.pinkbox {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.block.pinkbox .content {
+    margin-bottom: 0;
+}
+
+.block.pinkbox .content .logo {
+    float: left;
+    width: 45%;
+    padding-top: 50px;
+    padding-right: 75px;
+    position: relative;
+}
+
+.block.pinkbox .content .showoff {
+    text-align: left;
+    padding-left: 30px;
+    overflow: hidden;
+    width: 55%;
+    padding-top: 25px;
+    border-bottom: 0px solid rgba(0, 0, 0, .05);
+}
+
+.block.pinkbox .content .logo img {
+    width: 250px;
+    float: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.block.pinkbox .content .logo p {
+    font-size: 28px;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.block.pinkbox .content .showoff p {
+    font-size: 28px;
+}
+
+.block.pinkbox .content .skillbar {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    background: #eee;
+    height: 35px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    transition: .4s linear;
+    transition-property: width, background-color;
+}
+
+.block.pinkbox .content .skillbar-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 700;
+    font-size: 13px;
+    color: #fff;
+    background: #EE5193;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.block.pinkbox .content .skillbar-title span {
+    display: block;
+    background: rgba(0, 0, 0, .1);
+    padding: 0 20px;
+    height: 35px;
+    line-height: 35px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.block.pinkbox .content .skillbar-bar {
+    height: 35px;
+    width: 0;
+    background: #ee5193;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.block.pinkbox .content .skill-bar-percent {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 11px;
+    height: 35px;
+    line-height: 35px;
+    color: #444;
+    color: rgba(0, 0, 0, .4);
+}

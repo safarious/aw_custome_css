@@ -1,0 +1,191 @@
+/*
+Füge deinen eigenen CSS-Code nach diesem Kommentar hinter dem abschließenden Schrägstrich ein.
+
+Klicke auf das Hilfe-Symbol oben, um mehr zu erfahren.
+*/
+
+body {
+ -webkit-font-smoothing: antialiased !important;
+ -moz-osx-font-smoothing: grayscale !important;
+}
+
+
+/*
+Navigation Desktop
+*/
+.nav a {
+  color: #333;
+  font-size: 22px;
+  font-family: "Open Sans Condensed",
+  sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+  padding: 20px 30px;
+  background-color: #fff;
+  transition: background-color .3s
+  ease-in-out, color .3s ease-in-out;
+}
+
+.nav .menu{
+  float: right;
+}
+
+.nav li {
+  padding-right: 20px !important;
+}
+
+/* Primary */
+@media (min-width: 992px){
+.sticky-header .site-header.minimized .logo img {
+    width: 50px !important;
+    padding-top: 10px !important;
+}
+}
+
+@media (min-width: 1200px){
+.sticky-header .site-header.minimized .logo {
+    padding-top: 25px;
+}
+
+.header-layout-1 .header-full-width .logo {
+ padding-top: 0px;
+}
+
+.header-layout-1 .header-full-width .logo a {
+ padding: 20px;
+ background: #fff;
+}
+
+.site-header .primary-nav {
+    width: 68.33333333% !important;
+}
+
+.site-header .primary-nav > ul > li:hover > a {
+	color: #fff;
+	background: #333;
+}
+
+.site-header .primary-nav > ul > li > a {
+  font-size: 20px;
+}
+}
+
+/* Menu Extra (Icons) */
+.site-header .menu-extra > ul ul li a {
+	color: #333;
+}
+
+
+@media (min-width: 1200px){
+.site-header .menu-extra > ul li a {
+	background: #fff;
+	padding: 15px 20px;
+	margin-right: 20px
+}
+
+.site-header .menu-extra .logined > a {
+    padding-left: 15px !important;
+}
+
+
+
+.site-header .menu-extra > ul li:hover a {
+	color: #fff;
+	background: #333;
+}
+
+.site-header .menu-extra > ul li ul li:hover a{
+	color: #5CC0E1 !important;
+	background: #fff !important;
+}
+
+.site-header .menu-extra > ul ul li a {
+	color: #333 !important;
+	background: #fff !important;
+}
+
+
+
+.site-header .menu-extra .extra-menu-item:hover .t-icon {
+    color: #fff !important;
+}
+
+
+
+.header-layout-1 .header-full-width .menu-extra .menu-item-account {
+    margin-top: -5px !important;
+	margin-right: -40px;
+}
+
+
+.logined {
+    margin-top: 0 !important;
+	margin-right: 0 !important;
+	margin-top: -1px !important;
+}
+
+
+.site-header .menu-extra .menu-item-cart .mini-cart-counter {
+  margin-right: 20px;
+}
+
+
+.site-header .menu-extra .menu-item-sidebar {
+    margin-top: -5px;
+}
+
+
+
+.site-header .menu-extra .menu-item-account img {
+    margin-right: 15px;
+}
+
+
+.t-icon{
+color: #333 !important;
+}
+
+
+.icon-bag2 {
+    font-size: 22px;
+    color: #333;
+    margin-right: 20px;
+}
+
+
+.icon-menu{
+    font-size: 22px;
+    color: #333;
+    margin-right: 20px;
+}
+
+
+.woocommerce {
+    margin-top: -5px !important;
+}
+
+.site-header .menu-extra {
+    width: 15% !important;
+}
+
+.header-layout-1 .header-full-width .menu-extra {
+  margin-left: 25px;
+  padding-top: 20px;
+}
+}
+
+
+
+
+
+
+/*
+Navigation Mobile
+*/
+
+.primary-mobile-nav ul.menu > li > a {
+  font-family: "Open Sans Condensed",
+  sans-serif;
+  text-transform: uppercase;
+}
